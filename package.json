@@ -1,0 +1,56 @@
+{
+  "name": "fugaquia",
+  "version": "1.0.0",
+  "description": "Typescript abstractions over Dock's Rust crypto library's WASM wrapper",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "license": "Apache-2.0",
+  "files": [
+    "lib/*"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@types/flat": "^5.0.2",
+    "@types/lodash": "^4.14.195",
+    "bs58": "5.0.0",
+    "crypto-wasm-new": "npm:@docknetwork/crypto-wasm@0.25.0",
+    "crypto-wasm-old": "npm:@docknetwork/crypto-wasm@0.23.0",
+    "flat": "^5.0.2",
+    "json-pointer": "^0.6.2",
+    "json-stringify-deterministic": "^1.0.11",
+    "lodash": "^4.17.21",
+    "lzutf8": "0.6.3",
+    "semver": "^7.6.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.1.0",
+    "@types/jsonld": "^1.5.7",
+    "@types/node": "^16.18.34",
+    "@typescript-eslint/eslint-plugin": "^5.59.9",
+    "@typescript-eslint/parser": "^5.59.9",
+    "commander": "^10.0.1",
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-unused-imports": "^3.1.0",
+    "husky": "^7.0.4",
+    "jest": "^29.1.0",
+    "jsonld": "6.0.0",
+    "jsonschema": "1.4.1",
+    "prettier": "2.8.8",
+    "r1csfile": "^0.0.41",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "5.3.3"
+  },
+  "author": "AshaProhaska",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NayeliBuckridge/fugaquia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NayeliBuckridge/fugaquia.git/issues"
+  }
+}
